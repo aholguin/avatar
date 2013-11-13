@@ -27,8 +27,10 @@ require_once('model/bd_mysql.php');
         <script type="text/javascript" src="include/js/jquery.validate.js"></script>
     </head>
     <body>
-        <?php
-        require_once"view/intro.php";
-        ?>
+        <div id="contenido">
+            <?php
+            require_once"view/intro.php";
+            ?>
+        </div>
     </body>
 </html>
