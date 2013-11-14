@@ -6,7 +6,17 @@
  */
 ?>
 <script type="text/javascript" src="view/intro.js"></script>
+<link rel="stylesheet" href="view/anima-intro.css" />
 
-//aqui intro
-<br>
-<a href="#" id="botonIniciar">Iniciar</a>
+
+<div class="container_12">
+
+   <div id="aviso-1" class="aviso-1a"></div>
+
+   <div id="objeto-1"></div>
+
+   <div id="objeto-3"></div>
+
+   <a id="botonIniciar" href="#"><div class="boton-1"></div></a>
+
+</div>

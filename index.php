@@ -15,6 +15,7 @@ require_once('model/bd_mysql.php');
         <link rel="stylesheet" href="include/css/960/text.css" />
         <link rel="stylesheet" href="include/css/960/reset.css" />
         <link rel="stylesheet" href="include/css/960/960.css" />
+        <link rel="stylesheet" href="include/css/basico1.css" />
 
         <!--estilos-->
         <link rel="stylesheet" href="include/css/jq/jquery-ui-1.8.16.custom.css"/>
@@ -26,11 +27,19 @@ require_once('model/bd_mysql.php');
         <script type="text/javascript" src="include/js/jquery.form.js"></script>
         <script type="text/javascript" src="include/js/jquery.validate.js"></script>
     </head>
-    <body>
-        <div id="contenido">
+      <body>
+    
+    <!-- inicio -->
+    
+      <div id="contenido" class="container_12">
+      <div class="grid_12">
             <?php
             require_once"view/intro.php";
             ?>
-        </div>
-    </body>
+      </div>      
+      </div>
+    
+    <!--fin inicio -->
+       
+      </body>
 </html>

@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-color:#EFF0EB;
+}
+
+#contenido{
+	width:960px;
+	height:523px;
+	background:url(../../view/fondo-1.jpg) no-repeat;
+}
