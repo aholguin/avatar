@@ -10,10 +10,10 @@ include('include/bd/adodb5/adodb.inc.php');
 class bd_mysql extends ADOConnection {
 
     var $dbdriver = 'mysql';
-    var $servidor = 'localhost';
+    var $servidor = '172.16.7.75';
     var $usuario = 'root';
     var $contraseña = '';
-    var $database = 'enrrutamiento';
+    var $database = 'vocavatar';
     var $db;
 
     function __construct() {

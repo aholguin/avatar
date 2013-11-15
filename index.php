@@ -15,7 +15,7 @@ require_once('model/bd_mysql.php');
         <link rel="stylesheet" href="include/css/960/text.css" />
         <link rel="stylesheet" href="include/css/960/reset.css" />
         <link rel="stylesheet" href="include/css/960/960.css" />
-        <link rel="stylesheet" href="include/css/basico1.css" />
+        <link rel="stylesheet" href="view/index.css" />
 
         <!--estilos-->
         <link rel="stylesheet" href="include/css/jq/jquery-ui-1.8.16.custom.css"/>
