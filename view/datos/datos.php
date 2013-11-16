@@ -5,7 +5,7 @@
 
 
 
-<div class="container_12">
+<div id="contenido" class="container_12">
 
 
     <div class="fondo1"></div>
@@ -102,7 +102,7 @@
             </div>    
 
             <div class="clear"></div>
-            <a href="#" id="botonGuardarDatos"> Guardar</a>
+            <a href="#" id="botonGuardarDatos">Guardar</a>
     </form>
 
 

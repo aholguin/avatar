@@ -2,12 +2,20 @@
 /* CSS Document */
 
 
+#contenido{
+	width:960px;
+	height:523px;
+	overflow:hidden;
+	position:relative;
+	margin:0 auto;
+}
+
 #aviso-1{
 	width:266px;
 	height:438px;
 	background:url(imagenes/objeto-1.png) no-repeat;
 	position:absolute;
-	left:500px;
+	left:335px;
 	top:-500px;
 	animation-timing-function:ease-out;
 	-webkit-animation-timing-function:ease-out;
@@ -26,16 +34,16 @@
 
 @keyframes avisoAn{
 	0%{ left:500px; top:-500px;}
-	20%{left:500px; top:0px;}
-	80%{left:500px; top:0px;}
+	20%{left:500px; top:-20px;}
+	80%{left:500px; top:-0px;}
 	100%{left:500px; top:-500px;}
 }
 
 @-webkit-keyframes avisoAn{
-	0%{ left:500px; top:-500px;}
-	20%{left:500px; top:0px;}
-	80%{left:500px; top:0px;}
-	100%{ left:500px; top:-500px;}
+	0%{ left:335px; top:-500px;}
+	20%{left:335px; top:-20px;}
+	80%{left:335px; top:-20px;}
+	100%{left:335px; top:-500px;}
 }
 
 
@@ -44,12 +52,12 @@
 	height:421px;
 	background:url(imagenes/objeto-2.png) no-repeat;
 	position:absolute;
-	left:420px;
+	left:275px;
 	top:-500px;
 	animation: anima_2 1s 1;
 	-webkit-animation: anima_2 1s 1;
-	animation-delay:3s;
-	-webkit-animation-delay:3s;
+	animation-delay:3.2s;
+	-webkit-animation-delay:3.2s;
 	animation-fill-mode: forwards;
 	-webkit-animation-fill-mode: forwards;
 	z-index:1;
@@ -62,8 +70,8 @@
 }
 
 @-webkit-keyframes anima_2{
-	0%{ left:420px; top:-500px;}
-	100%{left:420px; top:80px;}
+	0%{ left:275px; top:-500px;}
+	100%{left:275px; top:10px;}
 }
 
 #objeto-3{
@@ -71,10 +79,10 @@
 	height:163px;
 	background:url(imagenes/objeto-3.png) no-repeat;
 	position:absolute;
-	left:390px;
+	left:225px;
 	top:1500px;
-	animation: anima_3 0.5s 1;
-	-webkit-animation: anima_3 0.5s 1;
+	animation: anima_3 1.3s 1;
+	-webkit-animation: anima_3 1.3s 1;
 	animation-delay:3.3s;
 	-webkit-animation-delay:3.3s;
 	animation-fill-mode: forwards;
@@ -84,13 +92,13 @@
 }
 
 @keyframes anima_3{
-	0%{ left:390px; top:1500px;}
-	100%{left:390px; top:320px;}
+	0%{ left:225px; top:1500px;}
+	100%{left:225px; top:220px;}
 }
 
 @-webkit-keyframes anima_3{
-	0%{ left:390px; top:1500px;}
-	100%{left:390px; top:320px;}
+	0%{ left:225px; top:1500px;}
+	100%{left:225px; top:220px;}
 }
 
 
@@ -99,8 +107,8 @@
 	height:211px;
 	background:url(imagenes/boton-1.png) no-repeat;
 	position:absolute;
-	left:500px;
-	top:450px;
+	left:335px;
+	top:320px;
 	opacity:0;
 	animation: anima_4 1.5s 1;
 	-webkit-animation: anima_4 1.5s 1;
@@ -113,11 +121,11 @@
 
 @keyframes anima_4{
 	0%{ opacity:1;
-	transform: perspective( 400px ) rotateX(-45deg);
+	transform: rotateX(-45deg);
 	transform:scale(0);
 	}
 	100%{ opacity:1;
-	transform: perspective( 600px ) rotateX(0deg); 
+	transform: rotateX(0deg); 
 	transform:scale(1);
     }
 }
@@ -125,22 +133,22 @@
 @-webkit-keyframes anima_4{
 	0%{ opacity:1;
 	    -webkit-transform:rotateX(-90deg) scale(0.9);
-	    top:365px; 
+	    top:260px; 
 	}
 	
 	35%{ opacity:1;
 	     -webkit-transform:rotateX(0deg) scale(1);
-	     top:425px;
+	     top:320px;
 	}
 	
 	70%{ opacity:1;
 	     -webkit-transform:rotateX(15deg) scale(1);
-	     top:415px;
+	     top:310px;
 	}
 	
 	100%{ opacity:1;
 	-webkit-transform:rotateX(0deg) scale(1);
-	top:425px; 
+	top:320px; 
     }
 
 }
