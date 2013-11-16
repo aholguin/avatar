@@ -5,7 +5,7 @@
 
 
 
-<div class="container_12">
+<div id="contenido" class="container_12">
 
 
     <div class="fondo1"></div>
