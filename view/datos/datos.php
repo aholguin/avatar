@@ -40,7 +40,7 @@
                 <select class="lista-1" name="ocupacion_id">
                     <?PHP
                     foreach ($ocupaciones as $key => $ocupacion) {
-                        echo "<option value='{$ocupacion['id']}]'>{$ocupacion['nombre']}</option>";
+                        echo "<option value='{$ocupacion['id']}'>{$ocupacion['nombre']}</option>";
                     }
                     ?>
 
@@ -52,7 +52,7 @@
                 <select class="lista-1" name="nivel_estudio_id">
                     <?PHP
                     foreach ($niveles as $key => $nivel) {
-                        echo "<option value='{$nivel['id']}]'>{$nivel['nombre']}</option>";
+                        echo "<option value='{$nivel['id']}'>{$nivel['nombre']}</option>";
                     }
                     ?>
                 </select> 
@@ -87,7 +87,7 @@
                 <select class="lista-1" name="estado_civil_id">
                     <?PHP
                     foreach ($estados as $key => $estado) {
-                        echo "<option value='{$estado['id']}]'>{$estado['nombre']}</option>";
+                        echo "<option value='{$estado['id']}'>{$estado['nombre']}</option>";
                     }
                     ?>
                 </select>

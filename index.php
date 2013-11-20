@@ -21,11 +21,15 @@ require_once('model/bd_mysql.php');
         <link rel="stylesheet" href="include/css/jq/jquery-ui-1.8.16.custom.css"/>
         <link rel="stylesheet" type="text/css" media="screen" href="include/css/jq/validation/screen.css" />
 
+        <!--slide-->
+        <link rel="stylesheet" href="include/css/slide/refineslide.css" />
+        
         <!--Action script-->
         <script type="text/javascript" src="include/js/jquery-1.8.1.min.js"></script>
         <script type="text/javascript" src="include/js/jquery-ui-1.8.23.custom.min.js"></script>
         <script type="text/javascript" src="include/js/jquery.form.js"></script>
         <script type="text/javascript" src="include/js/jquery.validate.js"></script>
+        <script type="text/javascript" src="include/js/slide/jquery.refineslide.min.js"></script>
     </head>
       <body>
     

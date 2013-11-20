@@ -13,14 +13,19 @@ $(document).ready(function() {
             //si guarda el registro se actualiza el listado de  estudiantes
             //
             if (xhr.responseText == '1') {
-                alert('llega');
+//                alert('llega');
+                $("#contenido").load(
+                        'direc.php', {
+                    'url': 'controller/avatar/avatar.php',
+                    'content': 'false'
+                });
             }
             else {
-                alert('no llega');
-
+//                alert('no llega');
+                $('#contenido').html(xhr.responseText);
             }
 
-            $('#contenido').html(xhr.responseText);
+
         }
     });
 //    $('#botonGuardarDatos').click(function() {
