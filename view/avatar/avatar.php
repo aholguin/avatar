@@ -11,5 +11,5 @@
         <li><img src="view/avatar/imagenes/person-2.gif" alt="" /></li>
         <li><img src="view/avatar/imagenes/person-3.gif" alt="" /></li>
     </ul>
+    <a href="#" id="botonSelectAvatar">Seleccionar</a>
 </div>
-aqui seleccion de avatar

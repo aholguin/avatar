@@ -28,12 +28,14 @@ class methods extends bd_mysql {
     }
 
     function insertUsuario($identificacion, $nombre, $aficiones, $tiempo_libre, $practica_deporte, $Deportes, $n_hijos, $nivel_estudio_id, $estado_civil_id, $ocupacion_id, $avatar_id, $genero, $sesion) {
-                
+
         $sql = "INSERT INTO estudiante (identificacion,nombre,aficiones,tiempo_libre,practica_deporte,Deportes,n_hijos,nivel_estudio_id,estado_civil_id,ocupacion_id,avatar_id,genero,sesion) 
                 VALUES($identificacion,'$nombre','$aficiones','$tiempo_libre',$practica_deporte,'$Deportes',$n_hijos,$nivel_estudio_id,$estado_civil_id,$ocupacion_id,$avatar_id,'$genero','$sesion')";
         //die($sql);
         $respuesta = $this->db->Execute($sql);
+        return $respuesta;
     }
+
 }
 
 ?>
