@@ -1,0 +1,221 @@
+
+
+@charset "UTF-8";
+/* CSS Document */
+
+#contenido{
+	width:960px;
+	height:523px;
+	overflow:hidden;
+	position:relative;
+	margin:0 auto;
+	background:url(imagenes/fondo-escenario.jpg) no-repeat;
+}
+
+.carro{
+	width:22px;
+	height:14px;
+	background:url(imagenes/carro-1.png) no-repeat;
+	position:absolute;
+	top:284px;
+	left:20px;
+	-webkit-animation: anima-carro 20s infinite linear;
+}
+
+@-webkit-keyframes anima-carro{
+	0%{
+		top:254px; left:-10px;
+
+	}
+	
+	50%{top: 540px; left:464px;
+	}
+	51%{
+		top:535px; left:454px;
+	}
+	100%{
+		top:234px; left:-110px;
+	}
+}
+
+.carro-2{
+	width:30px;
+	height:25px;
+	background:url(imagenes/carro-2.png) no-repeat;
+	position:absolute;
+	top:-30px;
+	left:252px;
+	-webkit-animation: anima-carro-dos 20s infinite linear;
+	z-index:50;
+}
+
+@-webkit-keyframes anima-carro-dos{
+	0%{
+		top:-30px; left:227px;
+
+	}
+	
+	100%{top: 400px; left:955px;
+	}
+}
+
+.carro-3{
+	width:25px;
+	height:20px;
+	background:url(imagenes/carro-3.png) no-repeat;
+	position:absolute;
+	top: 386px;
+	left:955px;
+	-webkit-animation: anima-carro-tres 17s infinite linear;
+}
+
+@-webkit-keyframes anima-carro-tres {
+	0%{
+		top:386px; left:955px; 
+	}
+	
+	100%{
+		top:-10px; left:285px;
+	}
+}
+
+.carro-4{
+	width:28px;
+	height:24px;
+	background:url(imagenes/carro-4.png) no-repeat;
+	position:absolute;
+	top:-25px;
+	left:495px;
+	-webkit-animation: anima-carro-cuatro 15s infinite linear;
+	-webkit-animation-delay: 3s; 
+}
+
+@-webkit-keyframes anima-carro-cuatro {
+	0%{
+		top:-25px;
+		left:495;
+	}
+	100%{
+		top:320px;
+		left:-80px;
+	}
+}
+
+.carro-5{
+	width:21px;
+	height:13px;
+	background:url(imagenes/carro-5.png) no-repeat;
+	position:absolute;
+	top:355px;
+	left:-90px;
+	-webkit-animation: anima-carro-cinco 20s infinite linear;
+	-webkit-animation-delay: 1s;
+}
+
+@-webkit-keyframes anima-carro-cinco{
+	0%{
+		top:355px;
+		left:-90px;
+	}
+	
+	100%{
+		top:-25px;
+		left:550px;
+	}
+}
+
+.torre{
+	width:72px;
+	height:127px;
+	background:url(imagenes/torre.png) no-repeat;
+	position:absolute;
+	top:151px;
+	left:188px;
+	z-index:60;
+}
+
+.btn-a{
+	width:136px;
+	height:182px;
+	background:url(imagenes/btn-preferencias.png) no-repeat;
+	position:absolute;
+	top:-150px;
+	left:240px;
+	opacity:0;
+	-webkit-animation: anima-btn-a 0.5s 1;
+	-webkit-animation-delay: 0.5s;
+	-webkit-animation-fill-mode: forwards;
+	z-index:100;
+	cursor:pointer;
+}
+
+@-webkit-keyframes anima-btn-a{
+	0%{
+		top:-150px;
+		opacity:0;
+	}
+	
+	100%{
+		top:30px;
+		opacity:1;
+	}
+}
+
+
+.btn-b{
+	width:136px;
+	height:182px;
+	background:url(imagenes/btn-habilidades.png) no-repeat;
+	position:absolute;
+	top:-150px;
+	left:350px;
+	opacity:0;
+	-webkit-animation: anima-btn-b 0.5s 1;
+	-webkit-animation-delay: 0.7s;
+	-webkit-animation-fill-mode: forwards;
+	z-index:100;
+	cursor:pointer;
+}
+
+@-webkit-keyframes anima-btn-b{
+	0%{
+		top:-150px;
+		opacity:0;
+	}
+	
+	100%{
+		top:260px;
+		opacity:1;
+	}
+}
+
+.btn-c{
+	width:136px;
+	height:182px;
+	background:url(imagenes/btn-vocavatar.png) no-repeat;
+	position:absolute;
+	top:-150px;
+	left:730px;
+	opacity:0;
+	-webkit-animation: anima-btn-c 0.5s 1;
+	-webkit-animation-delay: 0.9s;
+	-webkit-animation-fill-mode: forwards;
+	z-index:100;
+	cursor:pointer;
+}
+
+@-webkit-keyframes anima-btn-c{
+	0%{
+		top:-150px;
+		opacity:0;
+	}
+	
+	100%{
+		top:330px;
+		opacity:1;
+	}
+}
+
+.btn-c:hover, .btn-a:hover, .btn-b:hover{
+	-webkit-transform:scale(1.1);
+}

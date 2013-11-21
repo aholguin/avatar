@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#slider-mod{
+	width:960px;
+	height:523px;
+	overflow:hidden;
+	position:relative;
+	margin:0 auto;
+}
+
+.bund{
+	width:859px;
+	height:213px;
+	background:url(imagenes/base-slider-avatar.png) no-repeat;
+	top: 300px;
+	left:40px;
+	z-index:1;
+	position:absolute;
+	
+}
+
+.rs-slider{
+	z-index:-2000;
+}
+
