@@ -10,7 +10,7 @@
         <?php
         foreach ($arrayAvatares as $key => $avatar) {
             #var_dump($avatar);
-              " <li><img src='view/avatar/imagenes/{$avatar['ruta']}' alt='' /></li>";
+            echo  " <li><img src='view/avatar/imagenes/{$avatar['ruta']}' alt='' /></li>";
         }
         ?>
     </ul>
