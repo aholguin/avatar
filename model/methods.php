@@ -33,6 +33,22 @@ class methods extends bd_mysql {
                 VALUES($identificacion,'$nombre','$aficiones','$tiempo_libre',$practica_deporte,'$Deportes',$n_hijos,$nivel_estudio_id,$estado_civil_id,$ocupacion_id,$avatar_id,'$genero','$sesion')";
         //die($sql);
         $respuesta = $this->db->Execute($sql);
+        $id = NULL;
+        if ($respuesta) {
+            $id = $identificacion;
+        }
+        return $id;
+    }
+
+    function getDatosUsario($identificacion) {
+        $sql = "SELECT * FROM `estudiante` WHERE identificacion = $identificacion"; 
+        $respuesta = $this->db->Execute($sql)->GetArray();
+        return $respuesta;
+    }
+
+    function getAvatares($genero) {
+        $sql = "SELECT * FROM `avatar` WHERE genero = '$genero'"; 
+        $respuesta = $this->db->Execute($sql)->GetArray();
         return $respuesta;
     }
 
