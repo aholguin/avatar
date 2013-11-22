@@ -38,7 +38,7 @@ require_once('model/bd_mysql.php');
       <div id="contenido" class="container_12">
       <div class="grid_12">
             <?php
-            require_once"view/intro.php";
+            require_once"controller/escenario/seleccionar.php";
             ?>
       </div>      
       </div>
