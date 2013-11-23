@@ -10,9 +10,10 @@
         <?php
         foreach ($arrayAvatares as $key => $avatar) {
             #var_dump($avatar);
-            echo  " <li><img src='view/avatar/imagenes/{$avatar['ruta']}' alt='' /></li>";
+            echo  " <li id='{$avatar['id']}'><img src='view/avatar/imagenes/{$avatar['ruta']}' alt='' /></li>";
         }
         ?>
     </ul>
+    <input type="hidden" value="" id="avatarSeleccionado"/>
     <a href="#" id="botonSelectAvatar">Seleccionar</a>
 </div>

@@ -41,14 +41,20 @@ class methods extends bd_mysql {
     }
 
     function getDatosUsario($identificacion) {
-        $sql = "SELECT * FROM `estudiante` WHERE identificacion = $identificacion"; 
+        $sql = "SELECT * FROM `estudiante` WHERE identificacion = $identificacion";
         $respuesta = $this->db->Execute($sql)->GetArray();
         return $respuesta;
     }
 
     function getAvatares($genero) {
-        $sql = "SELECT * FROM `avatar` WHERE genero = '$genero'"; 
+        $sql = "SELECT * FROM `avatar` WHERE genero = '$genero'";
         $respuesta = $this->db->Execute($sql)->GetArray();
+        return $respuesta;
+    }
+
+    function setAvatar($identificacion, $avatar_id) {
+        $sql = "UPDATE `estudiante` SET avatar_id=$avatar_id WHERE identificacion = $identificacion";
+        $respuesta = $this->db->Execute($sql);
         return $respuesta;
     }
 

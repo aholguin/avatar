@@ -5,7 +5,6 @@ session_start();
  *  @version      1.0   
  */
 // Incluir la lógica del modelo
-require_once('model/bd_mysql.php');
 ?>
 <html>
     <head>
@@ -37,7 +36,7 @@ require_once('model/bd_mysql.php');
     
       <div id="contenido" class="container_12">
       <div class="grid_12">
-            <?php
+            <?php 
             require_once"controller/escenario/seleccionar.php";
             ?>
       </div>      
