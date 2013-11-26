@@ -11,4 +11,16 @@ $(function() {
             'content': 'false'
         });
     });
+
+    $("#accordionPreguntas").accordion();
+    //opciones para guardar
+
+    $(".respuestasCheck").click(function() {
+        console.log('guarda');
+    });
+
+    $(".respuestasText").keydown(function() {
+        console.log('guarda texto');
+    });
+
 });

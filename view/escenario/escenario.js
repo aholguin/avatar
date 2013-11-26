@@ -3,7 +3,8 @@ $(function() {
         $("#contenido").load(
                 'direc.php', {
             'url': 'controller/escenario/formularioGeneral.php',
-            'content': 'false'
+            'content': 'false',
+            'escenario': '1'
         });
     });
 
@@ -11,7 +12,8 @@ $(function() {
         $("#contenido").load(
                 'direc.php', {
             'url': 'controller/escenario/formularioGeneral.php',
-            'content': 'false'
+            'content': 'false',
+            'escenario': '2'
         });
     });
 
@@ -19,7 +21,8 @@ $(function() {
         $("#contenido").load(
                 'direc.php', {
             'url': 'controller/escenario/formularioGeneral.php',
-            'content': 'false'
+            'content': 'false',
+            'escenario': '3'
         });
     });
 });

@@ -58,6 +58,29 @@ class methods extends bd_mysql {
         return $respuesta;
     }
 
+    function getPreguntas($escenario) {
+        $sql = "SELECT 
+                p.id as p_id,
+                p.nombre as nombre_pregunta,
+                p.descripcion_general,
+                p.imagen,
+                p.activo,
+                p.orden,
+                p.tipo_pregunta_id,
+                p.escenario_id,
+                r.id as r_id,
+                r.nombre as nombre_respuesta,
+                r.descripcion_general as descripcion_general_respuesta,
+                r.activo            
+                FROM pregunta p
+                INNER JOIN pregunta_has_respuesta pr ON (p.id= pr.pregunta_id )
+                INNER JOIN respuesta r ON (pr.respuesta_id = r.id)
+                WHERE p.escenario_id = $escenario;
+                ";
+        $respuesta = $this->db->Execute($sql)->GetArray();
+        return $respuesta;
+    }
+
 }
 
 ?>
