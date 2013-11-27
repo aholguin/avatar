@@ -1,0 +1,39 @@
+
+
+@charset "UTF-8";
+/* CSS Document */
+
+.form-bg{
+}
+
+
+#botonVoverSeleccionar{
+	width:162px;
+	height:147px;
+	background:url(imagenes/boton-regresar.png) no-repeat;
+	border:none;
+	left:790px;
+}
+
+#accordionPreguntas{
+	width:700px;
+	height:700px;
+	margin:0 auto;
+	margin-top:0;
+	border:#990000 solid 1px;
+}
+
+#accordionPreguntas h3{
+	background:#CCCCCC;
+	padding:10px;
+}
+
+#accordionPreguntas div{
+	height:200px;
+	
+}
+
+#accordionPreguntas p{
+	height:200px;
+	
+}

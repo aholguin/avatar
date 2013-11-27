@@ -5,10 +5,11 @@
  */
 ?>
 <script type="text/javascript" src="view/escenario/formularioGeneral.js"></script>
+<link rel="stylesheet" href="view/escenario/estilos-escenario.css" />
 
-<a href="#" id="botonVoverSeleccionar">Regresar</a>
+<a href="#" id="botonVoverSeleccionar"></a>
+
 <div id="accordionPreguntas">
-
 
     <?php
     switch ($escenario) {
@@ -50,5 +51,7 @@
             break;
     }
     ?>
+    
+    
 </div>
 <?php ?>
