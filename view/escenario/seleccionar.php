@@ -19,5 +19,6 @@
     <div class="btn-a" id="botonEscenario1"></div>
     <div class="btn-b" id="botonEscenario2"></div>
     <div class="btn-c" id="botonEscenario3"></div>
+    <div class="btn-d" id="botonEscenario4"></div>
 
 </div>
