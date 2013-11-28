@@ -3,37 +3,113 @@
 @charset "UTF-8";
 /* CSS Document */
 
-.form-bg{
+#bgForm-gral{
+	width:960px;
+	height:523px;
+	overflow:hidden;
+	margin:0 auto;
+	position:absolute;
+}
+
+.bannerHabilida{
+	width:46px;
+	height:348px;
+	position:absolute;
+	background:url(imagenes/bannerHabilidades.png) no-repeat;
+	border:none;
+	top:-348px;
+	left:10px;
+	animation:bannerHa 0.7s 1;
+	-webkit-animation:bannerHa 0.7s 1;
+	animation-fill-mode:forwards;
+	-webkit-animation-fill-mode:forwards;
+	animation-delay:0.7s;
+	-webkit-animation-delay:0.7s;
+}
+
+@keyframes bannerHa{
+	0%{top:-348px;}
+	100%{top:0px;}
+}
+
+@-webkit-keyframes bannerHa{
+	0%{top:-348px;}
+	100%{top:0px;}
 }
 
 
 #botonVoverSeleccionar{
 	width:162px;
 	height:147px;
+	position:absolute;
 	background:url(imagenes/boton-regresar.png) no-repeat;
 	border:none;
 	left:790px;
-}
-
-#accordionPreguntas{
-	width:700px;
-	height:700px;
-	margin:0 auto;
-	margin-top:0;
-	border:#990000 solid 1px;
-}
-
-#accordionPreguntas h3{
-	background:#CCCCCC;
-	padding:10px;
-}
-
-#accordionPreguntas div{
-	height:200px;
+	top:-150;
+	z-index:1;
+	animation: botonRegresar 1s 1;
+	-webkit-animation: botonRegresar 1s 1;
+	animation-fill-mode:forwards;
+	-webkit-animation-fill-mode:forwards;
+	animation-delay:0.5s;
+	-webkit-animation-delay:0.5s;
 	
 }
 
-#accordionPreguntas p{
+#botonVoverSeleccionar:hover{
+	-webkit-transform:scale(1.1);
+}
+
+
+@keyframes botonRegresar{
+	0%{left: 790px; top:-150px;}
+	100%{left: 790px; top:0px;}
+}
+
+@-webkit-keyframes botonRegresar{
+0%{left: 790px; top:-150px;}
+	100%{left: 790px; top:0px;}
+}
+
+
+/*#accordionPreguntas h3{
+	background:#CCCCCC;
+	padding:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	list-style:none;
+}*/
+
+/*#accordionPreguntas div{
 	height:200px;
+	
+}*/
+
+#accordionPreguntas p{
+	width:520px;
+	height:150px;
+	border:#990000 1px solid;
+	color:#033;
+	font-size:12px;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	
+}
+
+#accordionPreguntas .campoCasedos{
+	float:right;
+	color:#033;
+	font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-top:70px;
+	
+}
+
+.campoCasedos input{
+	width:60px;
+	height:50px;
+	margin-left:10px;
+	font-size:25px;
+	border:#8ca5a3 dashed 2px;
 	
 }

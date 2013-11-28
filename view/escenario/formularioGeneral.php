@@ -7,6 +7,11 @@
 <script type="text/javascript" src="view/escenario/formularioGeneral.js"></script>
 <link rel="stylesheet" href="view/escenario/estilos-escenario.css" />
 
+
+<div id="bgForm-gral">
+
+<div class="bannerHabilida"></div>
+
 <a href="#" id="botonVoverSeleccionar"></a>
 
 <div id="accordionPreguntas">
@@ -39,8 +44,9 @@
                             <?php
                             echo "{$pregunta['descripcion_general']}";
                             ?>
-                            <br> PUNTAJE<input type="text" class='respuestasText/> 
-                        </p>
+                            </p>
+                            <div class="campoCasedos"> Puntaje<input type="text" class='respuestasText'/></div> 
+                        
                     </div>
                     <?php
                 }
@@ -53,5 +59,6 @@
     ?>
     
     
+</div>
 </div>
 <?php ?>
