@@ -1,5 +1,3 @@
-
-
 @charset "UTF-8";
 /* CSS Document */
 
@@ -168,7 +166,7 @@
 	background:url(imagenes/btn-habilidades.png) no-repeat;
 	position:absolute;
 	top:-150px;
-	left:350px;
+	left:355px;
 	opacity:0;
 	-webkit-animation: anima-btn-b 0.5s 1;
 	-webkit-animation-delay: 0.7s;
@@ -184,7 +182,7 @@
 	}
 	
 	100%{
-		top:260px;
+		top:190px;
 		opacity:1;
 	}
 }
@@ -192,7 +190,7 @@
 .btn-c{
 	width:136px;
 	height:182px;
-	background:url(imagenes/btn-vocavatar.png) no-repeat;
+	background:url(imagenes/btn-vocacion.png) no-repeat;
 	position:absolute;
 	top:-150px;
 	left:730px;
@@ -220,13 +218,13 @@
 .btn-d{
 	width:136px;
 	height:182px;
-	background:url(imagenes/btn-vocacion.png) no-repeat;
+	background:url(imagenes/btn-vocavatar.png) no-repeat;
 	position:absolute;
 	top:-150px;
 	left:490px;
 	opacity:0;
 	-webkit-animation: anima-btn-d 0.5s 1;
-	-webkit-animation-delay: 1s;
+	-webkit-animation-delay: 0.9s;
 	-webkit-animation-fill-mode: forwards;
 	z-index:100;
 	cursor:pointer;
@@ -246,4 +244,47 @@
 
 .btn-c:hover, .btn-a:hover, .btn-b:hover, .btn-d:hover{
 	-webkit-transform:scale(1.1);
+}
+
+.avatara{
+	width:620px;
+	height:100px;
+	position:absolute;
+	top:800px;
+	left:10px;
+	-webkit-animation: animaAvatar1 1.3s 1;
+	-webkit-animation-delay: 0.8s;
+	-webkit-animation-fill-mode: forwards;
+	z-index:1;
+}
+
+@-webkit-keyframes animaAvatar1{
+	0%{
+		top:800px;
+	}
+	
+	100%{
+		top:410px;
+		
+	}
+}
+
+.ima{
+	width:80px;
+	height:80px;
+	background:url(imagenes/personaje1.gif) no-repeat;
+	margin-top:8px;
+	float:left;
+}
+
+.txt{
+	width:539px;
+	height:97px;
+	background:#000000;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	margin:1px;
+	margin-left:0;
+	opacity:0.7;
+	float:right;
 }
