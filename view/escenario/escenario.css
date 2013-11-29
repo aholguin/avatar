@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
-#contenido{
+#contenidoInterno{
 	width:960px;
 	height:523px;
 	overflow:hidden;
@@ -272,7 +272,6 @@
 .ima{
 	width:80px;
 	height:80px;
-	background:url(imagenes/personaje1.gif) no-repeat;
 	margin-top:8px;
 	float:left;
 }

@@ -25,6 +25,14 @@ $(function() {
             'escenario': '3'
         });
     });
+
+    $('#botonEscenario4').click(function() {
+        $("#contenido").load(
+                'direc.php', {
+            'url': 'controller/avatar/avatar.php',
+            'content': 'false'
+        });
+    });
 });
 
 

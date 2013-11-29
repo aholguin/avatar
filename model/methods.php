@@ -58,6 +58,12 @@ class methods extends bd_mysql {
         return $respuesta;
     }
 
+    function getAvatar($id) {
+        $sql = "SELECT * FROM `avatar` WHERE id = '$id'";
+        $respuesta = $this->db->Execute($sql)->GetArray();
+        return $respuesta;
+    }
+
     function getPreguntas($escenario) {
         $sql = "SELECT 
                 p.id as p_id,
