@@ -5,7 +5,8 @@
  */
 ?>
 <script type="text/javascript" src="view/avatar/avatar.js"></script>
-<div class="grid_12" align="center">
+<link rel="stylesheet" href="view/avatar/avatar.css" />
+<div class="grid_12" align="center" id="slider-mod"><div class="bund">
     <ul class="rs-slider">
         <?php
         foreach ($arrayAvatares as $key => $avatar) {
@@ -15,5 +16,5 @@
         ?>
     </ul>
     <input type="hidden" value="" id="avatarSeleccionado"/>
-    <a href="#" id="botonSelectAvatar">Seleccionar</a>
+    <a href="#" id="botonSelectAvatar">Seleccionar</a></div>
 </div>
