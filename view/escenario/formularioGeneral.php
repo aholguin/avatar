@@ -34,13 +34,13 @@
                             if ($preguntaActual > 0)
                                 echo "</p></div>";
                             echo "<h3>{$pregunta['nombre_pregunta']}</h3>";
-                            echo "<div><p>";
+                            echo "<div><div>";
                             $preguntaActual = $pregunta['p_id'];
                         }
                         // aqui contenido de la pregunta
-                        echo "<input type='checkbox' class='respuestasCheck' name='p_{$pregunta['p_id']}' value='{$pregunta['p_id']}_{$pregunta['p_id']}'>" . $pregunta['nombre_respuesta'] . " - " . $pregunta['descripcion_general_respuesta'] . "<br>";
+                        echo "<input type='checkbox' class='respuestasCheck' name='p_{$pregunta['p_id']}' value='{$pregunta['p_id']}_{$pregunta['p_id']}'>" . $pregunta['nombre_respuesta'] . $pregunta['descripcion_general_respuesta'];
                     }
-                    echo "</p></div>";
+                    echo "</div></div>";
                 }
                 break;
             case 2: { // pra preguntas de calificación
@@ -48,11 +48,11 @@
                         echo "<h3>{$pregunta['nombre_pregunta']}</h3>";
                         ?>
                         <div>
-                            <p>
+                            <div>
                                 <?php
                                 echo "{$pregunta['descripcion_general']}";
                                 ?>
-                            </p>
+                            </div>
                             <div class="campoCasedos"> Puntaje<input type="text" class='respuestasText'/></div> 
 
                         </div>

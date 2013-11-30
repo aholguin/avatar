@@ -12,7 +12,9 @@ $(function() {
         });
     });
 
-    $("#accordionPreguntas").accordion();
+    $("#accordionPreguntas").accordion({
+        icons: null
+    });
     //opciones para guardar
 
     $(".respuestasCheck").click(function() {
