@@ -20,7 +20,7 @@ $(function() {
     $('#botonEscenario3').click(function() {
         $("#contenido").load(
                 'direc.php', {
-            'url': 'controller/escenario/formularioGeneral.php',
+            'url': 'controller/vocacion/vocacion.php',
             'content': 'false',
             'escenario': '3'
         });
