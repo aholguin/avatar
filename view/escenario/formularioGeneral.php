@@ -32,7 +32,7 @@
                     foreach ($preguntas as $key => $pregunta) {
                         if ($preguntaActual != $pregunta['p_id']) {// si cambia de pregunta nueva pestaña
                             if ($preguntaActual > 0)
-                                echo "</p></div>";
+                                echo "</div></div>";
                             echo "<h3>{$pregunta['nombre_pregunta']}</h3>";
                             echo "<div><div>";
                             $preguntaActual = $pregunta['p_id'];
