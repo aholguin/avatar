@@ -37,7 +37,7 @@ session_start();
       <div  class="container_12">
       <div id="contenido" class="grid_12">
             <?php 
-            require_once"controller/escenario/seleccionar.php";
+            require_once"view/intro.php";
             ?>
       </div>      
       </div>
