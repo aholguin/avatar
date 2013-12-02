@@ -31,7 +31,7 @@
 
             <div>
                 <label>Identificación</label>
-                <input name="identificacion" class="campo" type="text" value=""  /> 
+                <input name="identificacion" id="identificacion" class="campo" type="text" value=""  /> 
             </div>
 
 
@@ -79,7 +79,7 @@
                 <label>Tiene hijos</label>
                 <span>Si</span><input type="radio" name="hijos" value="1" />
                 <span>No</span><input type="radio" name="hijos" value="0" />
-                <span>Cuantos:</span><textarea class="text-area1" name="n_hijos"></textarea> 
+                <span>Cuantos:</span><textarea class="text-area1" name="n_hijos" id="n_hijos"></textarea> 
             </div>
 
             <div>  

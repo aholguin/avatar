@@ -18,11 +18,14 @@ $(function() {
     //opciones para guardar
 
     $(".respuestasCheck").click(function() {
-        console.log('guarda');
+//        console.log('guarda');
     });
 
+    $(".respuestasText").ForceNumericOnly();
+
     $(".respuestasText").keydown(function() {
-        console.log('guarda texto');
+
+//        console.log('guarda texto');
     });
 
 });

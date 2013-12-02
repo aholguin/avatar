@@ -20,7 +20,8 @@ $(document).ready(function() {
 
         }
     });
-
+    $("#identificacion").ForceNumericOnly();
+    $("#n_hijos").ForceNumericOnly();
     $("#formularioDatos").validate({
         rules: {
             identificacion: {

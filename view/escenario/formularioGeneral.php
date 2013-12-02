@@ -34,11 +34,11 @@
                             if ($preguntaActual > 0)
                                 echo "</div></div>";
                             echo "<h3>{$pregunta['nombre_pregunta']}</h3>";
-                            echo "<div><div>";
+                            echo "<div><div class='campoPrecas'>";
                             $preguntaActual = $pregunta['p_id'];
                         }
                         // aqui contenido de la pregunta
-                        echo "<input type='checkbox' class='respuestasCheck' name='p_{$pregunta['p_id']}' value='{$pregunta['p_id']}_{$pregunta['p_id']}'>" . $pregunta['nombre_respuesta'] . $pregunta['descripcion_general_respuesta'];
+                        echo "<div class='checkbox-1'><input type='checkbox' class='respuestasCheck' name='p_{$pregunta['p_id']}' value='{$pregunta['p_id']}_{$pregunta['p_id']}'><label for='campo1'></label></div><div class'Pregunta1'>" . $pregunta['nombre_respuesta'] ."</div><div class'Pregunta2'>". $pregunta['descripcion_general_respuesta']."</div><div class='clear'></div>";
                     }
                     echo "</div></div>";
                 }
@@ -48,12 +48,13 @@
                         echo "<h3>{$pregunta['nombre_pregunta']}</h3>";
                         ?>
                         <div>
-                            <div>
+                            <div class="campoPre">
                                 <?php
                                 echo "{$pregunta['descripcion_general']}";
                                 ?>
                             </div>
-                            <div class="campoCasedos"> Puntaje<input type="text" class='respuestasText'/></div> 
+                            <div class="campoCasedos"><img src="view/escenario/imagenes/<?PHP echo $pregunta['imagen'];?>" /> 
+                                Puntaje<input type="text" class='respuestasText' size="2"/></div> 
 
                         </div>
                         <?php
