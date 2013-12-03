@@ -2,105 +2,108 @@
 /* CSS Document */
 
 #slider-mod{
-	width:960px;
-	height:523px;
-	overflow:hidden;
-	position:absolute;
-	margin:0 auto;
-	z-index:2;
+    width:960px;
+    height:523px;
+    overflow:hidden;
+    position:absolute;
+    margin:0 auto;
+    z-index:2;
 }
 
 .bund{
-	width:859px;
-	height:313px;
-	background:url(imagenes/base-slider-avatar.png) no-repeat;
-	top:-170px;
-	left:0px;
-	z-index:-2000;
-	position:relative;
-	
+    width:859px;
+    height:313px;
+    background:url(imagenes/base-slider-avatar.png) no-repeat;
+    top:-170px;
+    left:0px;
+    z-index:-2000;
+    position:relative;
+
 }
 
 .rs-slider{
-	width:200px;
-	position:relative;
-	margin-top:-605;
-	z-index:1000;
+    position:relative;
+    margin-top:-605;
+    z-index:1000;
+}
+
+img.rs-slide-image{
+    width:200px;
 }
 
 .bannerAvatar{
-	width:46px;
-	height:348px;
-	position:relative;
-	background:url(imagenes/bannerAvatar.png) no-repeat;
-	border:none;
-	top:-348px;
-	left:-445px;
-	z-index:5;
-	animation:bannerAv 0.7s 1;
-	-webkit-animation:bannerAv 0.7s 1;
-	-moz-animation:bannerAv 0.7s 1;
-	-ms-animation:bannerAv 0.7s 1;
-	-o-animation:bannerAv 0.7s 1;
-	animation-fill-mode:forwards;
-	-webkit-animation-fill-mode:forwards;
-	-moz-animation-fill-mode:forwards;
-	-ms-animation-fill-mode:forwards;
-	-o-animation-fill-mode:forwards;
-	animation-delay:0.7s;
-	-webkit-animation-delay:0.7s;
-	-moz-animation-delay:0.7s;
-	-ms-animation-delay:0.7s;
-	-o-animation-delay:0.7s;
+    width:46px;
+    height:348px;
+    position:relative;
+    background:url(imagenes/bannerAvatar.png) no-repeat;
+    border:none;
+    top:-348px;
+    left:-445px;
+    z-index:5;
+    animation:bannerAv 0.7s 1;
+    -webkit-animation:bannerAv 0.7s 1;
+    -moz-animation:bannerAv 0.7s 1;
+    -ms-animation:bannerAv 0.7s 1;
+    -o-animation:bannerAv 0.7s 1;
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode:forwards;
+    -moz-animation-fill-mode:forwards;
+    -ms-animation-fill-mode:forwards;
+    -o-animation-fill-mode:forwards;
+    animation-delay:0.7s;
+    -webkit-animation-delay:0.7s;
+    -moz-animation-delay:0.7s;
+    -ms-animation-delay:0.7s;
+    -o-animation-delay:0.7s;
 }
 
 @keyframes bannerAv{
-	0%{top:-348px;}
-	100%{top:0px;}
+    0%{top:-348px;}
+100%{top:0px;}
 }
 
 @-webkit-keyframes bannerAv{
-	0%{top:-348px;}
-	100%{top:0px;}
+    0%{top:-348px;}
+100%{top:0px;}
 }
 
 @-moz-keyframes bannerAv{
-	0%{top:-348px;}
-	100%{top:0px;}
+    0%{top:-348px;}
+100%{top:0px;}
 }
 
 @-ms-keyframes bannerAv{
-	0%{top:-348px;}
-	100%{top:0px;}
+    0%{top:-348px;}
+100%{top:0px;}
 }
 
 @-o-keyframes bannerAv{
-	0%{top:-348px;}
-	100%{top:0px;}
+    0%{top:-348px;}
+100%{top:0px;}
 }
 
 #botonSelectAvatar{
-	width:112px;
-	height:28px;
-	top:-85px;
-	left:-10px;
-	background:none;
-	padding:0;
-	border:none;
-	z-index:3000;
-	position:relative;
+    width:112px;
+    height:28px;
+    top:-85px;
+    left:-10px;
+    background:none;
+    padding:0;
+    border:none;
+    z-index:3000;
+    position:relative;
 }
 
 #botonSelectAvatar:hover{
-	-webkit-transform:scale(1.1);
-	-moz-transform:scale(1.1);
-	-ms-transform:scale(1.1);
-	-o-transform:scale(1.1);
-	
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -ms-transform:scale(1.1);
+    -o-transform:scale(1.1);
+
 }
 
 .rs-slide-0{
-	height:300px;
+    height:300px;
 }
 
 

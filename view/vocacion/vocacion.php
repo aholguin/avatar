@@ -14,7 +14,7 @@
 
     <div class="bannerVocacion"></div>
     <div class="vocaAvatar">
-        <img src="view/avatar/imagenes/<?php echo $avatar[0]['rutaActivo'] ?>"/>
+        <img src="view/vocacion/imagenes/<?php echo $avatar[0]['rutaActivo'] ?>"/>
     </div>
     
     <a href="#" id="botonVoverSeleccionar"><img src="view/vocacion/imagenes/botonRegresar.png" /></a>

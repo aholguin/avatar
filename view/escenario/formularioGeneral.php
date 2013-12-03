@@ -53,13 +53,9 @@
                                 echo "{$pregunta['descripcion_general']}";
                                 ?>
                             </div>
-<<<<<<< HEAD
-                            <div class="campoCasedos"><img src="view/escenario/imagenes/icon1.png" /> 
-                            Puntaje<input type="text" class='respuestasText'/></div> 
-=======
+
                             <div class="campoCasedos"><img src="view/escenario/imagenes/<?PHP echo $pregunta['imagen'];?>" /> 
                                 Puntaje<input type="text" class='respuestasText' size="2"/></div> 
->>>>>>> 29cccbcd76920a684c16ed0cb87048e654c34819
 
                         </div>
                         <?php

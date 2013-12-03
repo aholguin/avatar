@@ -348,6 +348,17 @@
 	100%{top:5px;}
 }
 
+@-moz-keyframes animaForm{
+0%{top:730px;}
+	100%{top:5px;}
+}
+
+@-o-keyframes animaForm{
+0%{top:730px;}
+	100%{top:5px;}
+}
+
+
 .ui-accordion .ui-accordion-header { cursor: pointer; 
 									 position: relative; 
 									 margin-top: 1px; 
