@@ -102,7 +102,7 @@
             </div>    
 
             <div class="clear"></div>
-            <input type="submit" id="botonGuardarDatos" value="Guardar Información" id="botonGuardar">
+            <input type="submit" id="botonGuardarDatos" value="" /><span></span>
         </form>
 
 

@@ -8,8 +8,20 @@
 //echo '</pre>';
 ?>
 <script type="text/javascript" src="view/vocacion/vocacion.js"></script>
-<div class="">
-    <img src="view/avatar/imagenes/<?php echo $avatar[0]['rutaActivo'] ?>"/>
-</div>
+<link rel="stylesheet" href="view/vocacion/vocacion.css" />
 
-<a href="#" id="botonVoverSeleccionar">Volver</a>
+<div class="grid_12" align="center" id="vocaCont">
+
+    <div class="bannerVocacion"></div>
+    <div class="vocaAvatar">
+        <img src="view/avatar/imagenes/<?php echo $avatar[0]['rutaActivo'] ?>"/>
+    </div>
+    
+    <a href="#" id="botonVoverSeleccionar"><img src="view/vocacion/imagenes/botonRegresar.png" /></a>
+    
+    <div class="bg"></div>
+    
+    <div class="resultado"><h3>Su Vocación es: Ingeniería Biomédica</h3></div>
+    
+    
+</div>    

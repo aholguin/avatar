@@ -26,7 +26,8 @@
             <img src="view/escenario/imagenes/<?php echo $avatar[0]['rutaCabeza'] ?>"/>
             
         </div>
-        <div class="txt"><p></p></div>
+        <div class="txt"><p>Bienvenidos a mi vocavatar.<br /><br />1. Seleccione el boton de Preferencias del escenario, y complete todos los campos del formulario.<br />2. Continue seleccionando el botón Habilidades del escenario y complete todos los campos.<br />3. Termine seleccionando el botón mi Vocación del escenario para obtener su resultado. 
+        </p></div>
     </div>
 
 </div>

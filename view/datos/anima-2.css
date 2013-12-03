@@ -18,10 +18,19 @@
 	top:10px;
 	animation: anima_2r 1s 1;
 	-webkit-animation: anima_2r 1s 1;
+	-moz-animation: anima_2r 1s 1;
+	-ms-animation: anima_2r 1s 1;
+	-o-animation: anima_2r 1s 1;
 	animation-delay:0.1s;
 	-webkit-animation-delay:0.1s;
+	-moz-animation-delay:0.1s;
+	-ms-animation-delay:0.1s;
+	-o-animation-delay:0.1s;
 	animation-fill-mode: forwards;
 	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
 	z-index:1;
 	
 }
@@ -36,6 +45,22 @@
 	100%{left:275px; top:-500px;}
 }
 
+@-moz-keyframes anima_2r{
+	0%{ left:275px; top:10px;}
+	100%{left:275px; top:-500px;}
+}
+
+@-ms-keyframes anima_2r{
+	0%{ left:275px; top:10px;}
+	100%{left:275px; top:-500px;}
+}
+
+@-o-keyframes anima_2r{
+	0%{ left:275px; top:10px;}
+	100%{left:275px; top:-500px;}
+}
+
+
 #objeto-3r{
 	width:476px;
 	height:163px;
@@ -45,10 +70,19 @@
 	top:220px;
 	animation: anima_3r 1.6s 1;
 	-webkit-animation: anima_3r 1.6s 1;
+	-moz-animation: anima_3r 1.6s 1;
+	-ms-animation: anima_3r 1.6s 1;
+	-o-animation: anima_3r 1.6s 1;
 	animation-delay:0.2s;
 	-webkit-animation-delay:0.2s;
+	-moz-animation-delay:0.2s;
+	-ms-animation-delay:0.2s;
+	-o-animation-delay:0.2s;
 	animation-fill-mode: forwards;
 	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
 	z-index:2;
 	
 }
@@ -63,6 +97,21 @@
 	100%{left:225px; top:1500px;}
 }
 
+@-moz-keyframes anima_3r{
+	0%{ left:225px; top:220px;}
+	100%{left:225px; top:1500px;}
+}
+
+@-ms-keyframes anima_3r{
+	0%{ left:225px; top:220px;}
+	100%{left:225px; top:1500px;}
+}
+
+@-o-keyframes anima_3r{
+	0%{ left:225px; top:220px;}
+	100%{left:225px; top:1500px;}
+}
+
 
 .boton-1r{
 	width:247px;
@@ -73,10 +122,19 @@
 	top:320px;
 	animation: anima_4r 1.2s 1;
 	-webkit-animation: anima_4r 1.2s 1;
+	-moz-animation: anima_4r 1.2s 1;
+	-ms-animation: anima_4r 1.2s 1;
+	-o-animation: anima_4r 1.2s 1;
 	animation-delay:0.1s;
 	-webkit-animation-delay:0.1s;
+	-moz-animation-delay:0.1s;
+	-ms-animation-delay:0.1s;
+	-o-animation-delay:0.1s;
 	animation-fill-mode: forwards;
 	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
 	cursor:pointer;
 	
 }
@@ -91,6 +149,20 @@
 	100%{left:335px; top:-500px;}
 }
 
+@-moz-keyframes anima_4r{
+	0%{ left:335px; top:320px;}
+	100%{left:335px; top:-500px;}
+}
+
+@-ms-keyframes anima_4r{
+	0%{ left:335px; top:320px;}
+	100%{left:335px; top:-500px;}
+}
+
+@-o-keyframes anima_4r{
+	0%{ left:335px; top:320px;}
+	100%{left:335px; top:-500px;}
+}
 
 .fondo1{
 	position:relative;
@@ -99,10 +171,19 @@
 	/*background:#000;*/
 	animation: bg-fondo 2s 1 ease-out;
 	-webkit-animation: bg-fondo 2s 1 ease-out;
+	-moz-animation: bg-fondo 2s 1 ease-out;
+	-ms-animation: bg-fondo 2s 1 ease-out;
+	-o-animation: bg-fondo 2s 1 ease-out;
 	animation-delay:0.5s;
 	-webkit-animation-delay:0.5s;
+	-moz-animation-delay:0.5s;
+	-ms-animation-delay:0.5s;
+	-o-animation-delay:0.5s;
 	animation-fill-mode: forwards;
 	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
 }
 
 @keyframes bg-fondo{
@@ -113,6 +194,27 @@
 }
 
 @-webkit-keyframes bg-fondo{
+	0%{opacity:1;}
+	40%{opacity:0;}
+	60%{opacity:0;}
+	100%{opacity:1;}
+}
+
+@-moz-keyframes bg-fondo{
+	0%{opacity:1;}
+	40%{opacity:0;}
+	60%{opacity:0;}
+	100%{opacity:1;}
+}
+
+@-ms-keyframes bg-fondo{
+	0%{opacity:1;}
+	40%{opacity:0;}
+	60%{opacity:0;}
+	100%{opacity:1;}
+}
+
+@-o-keyframes bg-fondo{
 	0%{opacity:1;}
 	40%{opacity:0;}
 	60%{opacity:0;}
@@ -137,6 +239,9 @@
 	-ms-animation-delay:2.5s;
 	-o-animation-delay:2.5s;
 	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
 }
 
 @keyframes logo-p{
@@ -145,6 +250,21 @@
 }
 
 @-webkit-keyframes logo-p{
+	0%{left:-150px;}
+	100%{left:0px;}
+}
+
+@-moz-keyframes logo-p{
+	0%{left:-150px;}
+	100%{left:0px;}
+}
+
+@-ms-keyframes logo-p{
+	0%{left:-150px;}
+	100%{left:0px;}
+}
+
+@-o-keyframes logo-p{
 	0%{left:-150px;}
 	100%{left:0px;}
 }
@@ -167,6 +287,9 @@
 	-ms-animation-delay:2.5s;
 	-o-animation-delay:2.5s;
 	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
 }
 
 
@@ -179,6 +302,22 @@
 	0%{top:-300px;}
 	100%{top:0px;}
 }
+
+@-moz-keyframes aviso2{
+	0%{top:-300px;}
+	100%{top:0px;}
+}
+
+@-ms-keyframes aviso2{
+	0%{top:-300px;}
+	100%{top:0px;}
+}
+
+@-o-keyframes aviso2{
+	0%{top:-300px;}
+	100%{top:0px;}
+}
+
 
 #aform{
 	width:490px;
@@ -198,6 +337,9 @@
 	-ms-animation-delay:2s;
 	-o-animation-delay:2s;
 	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
 	z-index:100;
 
 }
@@ -208,6 +350,21 @@
 }
 
 @-webkit-keyframes form1{
+	0%{left:1300px;}
+	100%{left:195px;}
+}
+
+@-moz-keyframes form1{
+	0%{left:1300px;}
+	100%{left:195px;}
+}
+
+@-ms-keyframes form1{
+	0%{left:1300px;}
+	100%{left:195px;}
+}
+
+@-o-keyframes form1{
 	0%{left:1300px;}
 	100%{left:195px;}
 }
@@ -297,5 +454,17 @@
 #botonGuardarDatos{
 	width:115px;
 	height:34px;
-	padding:20px;
+	margin-left:150px;
+	margin-top:7px;
+	background:url(imagenes/boton.png) no-repeat;
+	border:none;
+	cursor:pointer;
 }
+
+#botonGuardarDatos:hover{
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+}
+
